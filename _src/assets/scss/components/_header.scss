@@ -1,5 +1,12 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.page__header { 
+  .menuHeader {
+    background-color: #0271bc;
+    width: 44px;
+    height: 44px;
+    position: fixed;
+    .containerMenu{
+      padding-top: 15px;
+      padding-left: 15px;
+    }
+  }
 }

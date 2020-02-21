@@ -1,0 +1,62 @@
+.page_aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.globalContainerAside{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .containerAsideLink{
+        padding-top: 30px;
+        line-height: 30px;
+        .linkAside{
+            font-family: 'Roboto';
+            font-size: 14px;
+            color: #8ccbea;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    .containerAside1{
+        .textAside{
+            font-family: 'Roboto Slab';
+            font-weight: bold;
+            size: 24px;
+            color: black;
+            line-height: 30px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    .containerAside2{
+        .paragraph{
+            padding-left: 15px;
+            padding-right: 15px;
+            font-family: 'Roboto';
+            font-size: 18px;
+            color: #4a4a4a;
+            line-height: 30px;
+        }
+    }
+    .containerAside3{
+        padding-top: 30px;
+        padding-bottom: 45px;
+        .button{
+            background-color:white; 
+            border: solid 2px  #f26002;
+            width: 76px;
+            height: 45px;
+            border-radius: 22.5px;
+            font-family: 'Roboto';
+            color: #f26002;
+            font-size: 20px;
+            align-items: center;
+                
+                
+              }
+              
+        }
+    }
+
+
