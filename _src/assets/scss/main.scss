@@ -1,8 +1,12 @@
 @import "core/reset";
-@import "core/settings";
+@import "core/variables";
+
 @import "components/header";
 @import "components/hero";
+@import "components/main";
+@import "components/aside";
+
 @import "components/page";
 
-@import "components/aside";
+
 @import "components/footer";

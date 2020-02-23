@@ -1,8 +1,117 @@
 .page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+
+  background-color: #304268;
+
+  .centerButtom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .containerCircleTop {     
+      background-color: white;
+      width: 45px;
+      height: 45px;
+      margin-top: -25px;
+      border-radius: 50%;
+      animation-name: colorChange;
+      animation-duration: 4s;
+      position: relative;
+      
+
+
+@keyframes colorChange {
+  0%   {background-color: pink; left:0px; top:0px;}
+  25%  {background-color:pink; left:200px; top:0px;}
+  50%  {background-color:#304268; right: 200px; top: 0px;}
+  75%  {background-color: pink; left:0px; top:0px;}
+  100% {background-color:pink; left:0px; top:0px;}
+}
+      .icoCentred {
+        padding-top: 10px;
+        padding-left: 12px;
+      }
+    }
+  }
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    padding-top: 60px;
+    grid-gap:30px;
+    
+  }
+  .grid-container > div{
+    text-align: start;
+    font-size: 16px;
+    font-family: 'Roboto';
+    line-height: 30px;
+    color: white;
+    text-align: center;
+  }
+
+   
+
+
+  .container4footer{
+    padding-bottom: 15px;
+  }
+  /* TABLET */
+  @media all and (min-width: 768px){
+  .grid-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 22px;
+    grid-gap:30px;
+    .container1Footer{
+      grid-column-start: 3;
+      grid-column-end: 4;
+      text-align: start;
+      padding-bottom: 45px;
+    }
+    .container2{
+      grid-column-start: 5;
+      grid-column-end: 6;
+      padding-bottom: 45px;
+    }
+    .container4{
+      padding-left: 39px;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      padding-bottom: 45px;
+    }
+
+  
+  }
+}
+   /* PC */
+   @media all and (min-width: 1200px){
+   .grid-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    padding-top: 22px;
+    grid-gap:30px;
+    .container1Footer{
+      grid-column-start: 4;
+      grid-column-end: 5;
+    }
+    .container2{
+      grid-column-start: 5;
+      grid-column-end: 6;
+    }
+    .container4{
+      padding-left: 39px;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+    }
+
+  
+  }
+}
 }

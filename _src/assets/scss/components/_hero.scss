@@ -19,6 +19,32 @@
         font-size: 42px;
         line-height: 55px;         
       }
+          /* TABLET */
+          @media all and (min-width: 768px){
+ 
+            .primaryText {
+              font-family: 'Roboto Slab';
+              font-weight: bold;
+              color: white;
+              font-size: 80px;
+              line-height: 106px; 
+              padding-left: 39px;
+              padding-right: 39px;        
+            }
+          } 
+          /* PC*/
+          @media all and (min-width: 1200px){
+ 
+            .primaryText {
+              font-family: 'Roboto Slab';
+              font-weight: bold;
+              color: white;
+              font-size: 100px;
+              line-height: 132px; 
+              padding-left: 275px;
+              padding-right: 275px;        
+            }
+          } 
       .secondaryText {
         padding-top: 10px;
         padding-bottom: 50px;
@@ -26,7 +52,26 @@
         font-size: 16px;
         color: white;        
       }
-  }
+          /* TABLET */
+          @media all and (min-width: 768px){
+            .secondaryText {
+              padding-top: 20px;
+              padding-bottom: 30px;
+              font-family: 'Roboto';
+              font-size: 24px;
+              color: white;        
+            }
+          } 
+          @media all and (min-width: 1200px){
+            .secondaryText {
+   
+              padding-bottom: 30px;
+              font-family: 'Roboto';
+              font-size: 24px;
+              color: white;        
+            }
+          }
+    }
     .centerButtom {
       display: flex;
       flex-direction: column;
@@ -42,4 +87,5 @@
         }
       }
     }
+
 }
