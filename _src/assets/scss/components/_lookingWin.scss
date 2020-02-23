@@ -1,0 +1,48 @@
+.page__win {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/paisaje.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .sentence{
+        font-size: 16px;
+        font-family: 'Roboto';
+        color: white;
+    }
+    .containerFirst{
+     padding-top: 80px;
+     
+        .button{
+            background-color: green;
+            width: 200px;
+            height: 45px;
+            border-radius: 22.5px;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-weight: bold;
+            align-items: center;
+            color: white;
+
+        }
+      
+    }
+    @media all and (min-width: 768px){
+        .sentence{
+            font-size: 40px;
+            font-family: 'Roboto';
+            color: white;
+        }  
+    }
+
+    @media all and (min-width: 1200px){
+        .sentence{
+            font-size: 100px;
+            font-family: 'Roboto Slab';
+            color: white;
+        }
+    }
+   
+}

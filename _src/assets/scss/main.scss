@@ -1,5 +1,6 @@
 @import "core/reset";
 @import "core/variables";
+@import "core/mixins";
 
 @import "components/header";
 @import "components/hero";
@@ -7,6 +8,9 @@
 @import "components/aside";
 
 @import "components/page";
-
+@import "components/lookingWin";
 
 @import "components/footer";
+@import "components/headerReasons";
+@import "components/mainReasons";
+@import "components/footerReasons";

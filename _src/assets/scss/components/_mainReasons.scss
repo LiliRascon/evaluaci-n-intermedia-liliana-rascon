@@ -1,0 +1,172 @@
+section{
+    background-color:  #eff9ff;
+}
+.homecontainer0 {
+   background-color:  #eff9ff;
+    .hometext3 {
+      font-family: 'Roboto';
+      font-size: 24px;
+      color:#304268;
+    }
+  }
+  
+  .homecontainer4 {
+    .hometext2 {
+      font-family: 'Roboto';
+      font-size: 22px;
+      color: #304268;
+    }
+  }
+  
+  .homecontainer2 {
+    .homecontainertablet {
+      .homecontainer3 {
+        padding-left: 0px;
+  
+        .hometext1 {
+          font-family: 'Roboto';
+          font-size: 22px;
+          color: #304268;
+        }
+      }
+    }
+  }
+  
+  .homecontainer2 {
+    .homecontainertablet {
+      .homecontainer3 {
+        padding-left: 0px;
+  
+        .hometext4 {
+          @include container2Style;
+        }
+      }
+  
+      .homecontainer4 {
+        .hometext5 {
+          @include container2Style;
+        }
+      }
+    }
+  }
+  
+  .homecontainer2 {
+    .homecontainertablet {
+      .homecontainer3 {
+        background-color: #eff9ff ;
+        padding-left: 0px;
+      }
+  
+      .homecontainer4 {
+        background-color: #eff9ff;
+      }
+    }
+  }
+  
+  .homecontainer0 {
+    @include containerCentred;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background-color: #eff9ff;
+  }
+  
+  .homecontainer1 {
+    @include containerCentred;
+   
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    color: $paragraphColor;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+  
+  .homecontainer2 {
+    .homecontainertablet {
+      .homecontainer3 {
+        @include containerCentred;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+        text-align: center;
+      }
+  
+      .homecontainer4 {
+        @include containerCentred;
+        padding-top: 30px;
+        padding-bottom: 45px;
+    
+        text-align: center;
+      }
+    }
+  }
+  
+  .homecontainercuadro {
+    @include squareStyle;
+  }
+  
+  .homecontainercuadro {
+    .homerectangle {
+      background-color: white;
+      width: 70px;
+      height: 70px;
+      transform: rotate(45deg);
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .homecontainer2 {
+      .homecontainertablet {
+        display: flex;
+        flex-direction: row;
+  
+        .homecontainer3 {
+          width: 50%;
+          padding-right: 20px;
+          padding-left: 50px;
+        }
+  
+        .homecontainer4 {
+          width: 50%;
+          padding-left: 50px;
+          padding-right: 50px;
+        }
+      }
+    }
+  }
+  
+  @media all and (min-width:1200px) {
+  
+      .homecontainer1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 601px;
+        margin: auto;
+     
+      }
+  
+      & .homecontainer2 {
+        .homecontainertablet {
+          .homecontainer3 {
+            padding-right: 70px;
+  
+            .hometext1 {}
+  
+            .hometext4 {}
+          }
+  
+          & .homecontainer4 {
+            padding-right: 70px;
+  
+            .hometext2 {}
+  
+            .hometext5 {}
+          }
+        }
+      }
+    }

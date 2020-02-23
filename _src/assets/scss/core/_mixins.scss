@@ -1,0 +1,73 @@
+@mixin container2Style {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto';
+    color: #54585A;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@mixin containerCentred {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+@mixin squareStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+@mixin stylePpal {
+  background-color: #8ccbea;
+  width: 100%;
+  position: relative;
+}
+
+@mixin separation {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #54585A;
+}
+@mixin stylesBox {
+  font-family: 'Roboto';
+  width: 96%;
+  height: 45px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: solid 1px;
+  border-color: #B8B8B9;
+}
+@mixin cleanBox {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #B8B8B9;
+}
+@mixin gralBottom {
+  margin-top: 0;
+  background-color: #8ccbea;
+  height: 45px;
+  font-family: 'Roboto';
+  color: white;
+  border-radius: 4px;
+}
+@mixin box2 {
+  font-family: 'Roboto';
+  width: 395px;
+  height: 45px;
+  margin-left: $left;
+  margin-right: 44px;
+  border: solid 1px;
+  border-color: $copyColor;
+}
+@mixin box3 {
+  font-family: 'Roboto';
+  width: 162px;
+  height: 45px;
+  margin-left: $left;
+  border: solid 1px;
+  border-color: $copyColor;
+}
