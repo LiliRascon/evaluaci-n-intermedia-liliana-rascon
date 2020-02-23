@@ -1,9 +1,5 @@
 
-
-
-
  .page__footer {
-
    background-color: #304268;
 
    .centerButtom {
@@ -20,8 +16,6 @@
        animation-duration: 4s;
        position: relative;
       
-
-
  @keyframes colorChange {
    0%   {background-color: pink; left:0px; top:0px;}
    25%  {background-color:pink; left:200px; top:0px;}
@@ -36,14 +30,12 @@
      }
    }
 
-
    .grid-container {
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: auto auto auto auto;
      padding-top: 60px;
-     grid-gap:30px;
-    
+     grid-gap:30px;   
    }
    .grid-container > div{
      text-align: start;
@@ -53,17 +45,12 @@
      color: white;
      text-align: center;
    }
-
-   
-
-
    .container4footer{
      padding-bottom: 15px;
    }
    /* TABLET */
    @media all and (min-width: 768px){
-   .grid-container {
-    
+   .grid-container {   
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
      grid-template-rows: auto auto;
@@ -86,9 +73,7 @@
        grid-column-end: 2;
        grid-row-start: 1;
        padding-bottom: 45px;
-     }
-
-  
+     }  
    }
  }
     /* PC */
@@ -113,9 +98,7 @@
        grid-column-start: 3;
        grid-column-end: 4;
        grid-row-start: 1;
-     }
-
-  
+     }  
    }
  }
  }
