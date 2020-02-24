@@ -218,7 +218,9 @@
       @media all and (min-width: 1200px){
     
         .containerAside{
-          @include typeFlex;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
         
             .titleAside{
                 
