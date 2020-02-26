@@ -1,0 +1,32 @@
+.specialOffer{
+    display: flex;
+    flex-direction: column;
+    .specialOffer1{
+        background-color:  #f26002;
+        width: 100%;
+        padding: 20px;
+
+    }
+    @media all and (min-width: 768px){
+        .specialOffer2{
+            display: flex;
+            flex-direction: row;
+       .subtitle {
+           
+           padding-top: 10px;
+           width: 50%;
+       }
+       
+    }
+    .specialOffer3{
+        display: flex;
+        flex-direction: row;
+        .paragraphDiscount{
+            padding-left: 100px;
+            width: 50%;
+        }
+
+    }
+  
+    }
+}
